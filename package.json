@@ -1,0 +1,19 @@
+{
+  "name": "rest-api-basics",
+  "version": "1.0.0",
+  "description": "Creating first Rest API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekta-chaudhry/Rest-API.git"
+  },
+  "author": "Ekta Chaudhry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekta-chaudhry/Rest-API/issues"
+  },
+  "homepage": "https://github.com/ekta-chaudhry/Rest-API#readme"
+}
