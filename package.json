@@ -2,9 +2,10 @@
   "name": "rest-api-basics",
   "version": "1.0.0",
   "description": "Creating first Rest API",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/ekta-chaudhry/Rest-API/issues"
   },
-  "homepage": "https://github.com/ekta-chaudhry/Rest-API#readme"
+  "homepage": "https://github.com/ekta-chaudhry/Rest-API#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
